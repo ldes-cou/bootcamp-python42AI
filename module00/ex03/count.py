@@ -10,7 +10,7 @@ def text_analyzer(*args):
 	elif len(args) < 1:
 		str = input("What is the text to analyse?\n>>")
 	else:
-		str = arg1
+		str = args[0]
 	for i in str:
 		if i in string.punctuation:
 			p += 1
